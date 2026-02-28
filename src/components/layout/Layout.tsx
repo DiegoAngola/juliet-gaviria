@@ -1,6 +1,6 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import StickyBookingButton from './components/StickyBookingButton';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import StickyBookingButton from '../common/StickyBookingButton';
 import { Outlet } from 'react-router-dom';
 
 export default function Layout() {

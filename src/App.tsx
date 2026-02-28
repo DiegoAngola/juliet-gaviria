@@ -4,7 +4,7 @@
  */
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
+import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Microblading from './pages/Microblading';
 import Services from './pages/Services';
