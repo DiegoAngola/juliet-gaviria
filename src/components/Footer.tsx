@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,8 +12,24 @@ export default function Footer() {
               Especialistas en realzar tu belleza natural a través de técnicas avanzadas de micropigmentación y cuidado facial.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a href="#" className="text-brand-gold hover:text-white transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="text-brand-gold hover:text-white transition-colors"><Facebook size={20} /></a>
+              <a 
+                href="https://www.instagram.com/juliet_gaviria_beauty/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-brand-gold hover:text-white transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={20} />
+              </a>
+              <a 
+                href="https://wa.me/34611178508" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-brand-gold hover:text-white transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle size={20} />
+              </a>
             </div>
           </div>
 
@@ -27,7 +43,7 @@ export default function Footer() {
               </p>
               <p className="flex items-center justify-center md:justify-start gap-3">
                 <Phone size={18} className="text-brand-gold" />
-                +34 600 000 000
+                +34 611 178 508
               </p>
               <p className="flex items-center justify-center md:justify-start gap-3">
                 <Mail size={18} className="text-brand-gold" />

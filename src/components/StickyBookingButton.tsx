@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export default function StickyBookingButton() {
   return (
     <motion.a
-      href="https://www.treatwell.es" // Placeholder
+      href="https://widget.treatwell.es/establecimiento/juliet-gaviria-beauty/"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ y: 100, opacity: 0 }}

@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { Menu, X, Instagram, Facebook } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -60,7 +60,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://www.treatwell.es" // Placeholder for actual Treatwell link
+            href="https://widget.treatwell.es/establecimiento/juliet-gaviria-beauty/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-brand-gold text-brand-black px-6 py-2 text-sm font-semibold uppercase tracking-wider hover:bg-white transition-colors"
@@ -101,7 +101,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://www.treatwell.es"
+                href="https://widget.treatwell.es/establecimiento/juliet-gaviria-beauty/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-brand-gold text-brand-black text-center py-3 font-semibold uppercase tracking-wider mt-4"

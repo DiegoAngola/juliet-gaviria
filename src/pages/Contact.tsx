@@ -41,7 +41,7 @@ export default function Contact() {
                 <Phone className="text-brand-gold mt-1" size={24} />
                 <div>
                   <h3 className="text-xl font-serif mb-2">Teléfono</h3>
-                  <p className="text-white/80 font-light">+34 600 000 000</p>
+                  <p className="text-white/80 font-light">+34 611 178 508</p>
                 </div>
               </div>
 

@@ -150,7 +150,7 @@ export default function Microblading() {
           <h2 className="text-3xl md:text-5xl font-serif mb-6">¿Lista para transformar tu mirada?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">Reserva tu cita de valoración gratuita y descubre el diseño perfecto para ti.</p>
           <a
-            href="https://www.treatwell.es"
+            href="https://widget.treatwell.es/establecimiento/juliet-gaviria-beauty/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-brand-black text-white px-8 py-4 font-semibold uppercase tracking-wider hover:bg-white hover:text-brand-black transition-colors"
